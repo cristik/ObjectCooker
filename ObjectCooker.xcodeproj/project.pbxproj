@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F5175A61B160AF500B179C9 /* CKObjectCooker.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F5175A41B160AF500B179C9 /* CKObjectCooker.h */; };
+		0F5175A71B160AF500B179C9 /* CKObjectCooker.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0F5175A51B160AF500B179C9 /* CKObjectCooker.mm */; };
+		0F5175AA1B160C7C00B179C9 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F5175A91B160C7C00B179C9 /* libc++.dylib */; };
+		0F65BE3619B35A6B005F3627 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F65BE3519B35A6B005F3627 /* Cocoa.framework */; };
+		0F65BE4619B35A6B005F3627 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F65BE0C19B35760005F3627 /* XCTest.framework */; };
+		0F65BE4719B35A6B005F3627 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F65BE3519B35A6B005F3627 /* Cocoa.framework */; };
+		0F65BE4A19B35A6B005F3627 /* libObjectCooker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F65BE3419B35A6A005F3627 /* libObjectCooker.a */; };
+		0F65BE5A19B35AD9005F3627 /* CKObjectCookerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0583FA19B35565003658CF /* CKObjectCookerSpec.m */; };
+		3CF41AE93F40164A41CCBC47 /* libPods-ObjectCookerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19C4A001FCCA6DE2EB5C8167 /* libPods-ObjectCookerTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0F65BE4819B35A6B005F3627 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F0583ED19B35295003658CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F65BE3319B35A6A005F3627;
+			remoteInfo = ObjectCooker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F0583FA19B35565003658CF /* CKObjectCookerSpec.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CKObjectCookerSpec.m; sourceTree = "<group>"; };
+		0F5175A41B160AF500B179C9 /* CKObjectCooker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKObjectCooker.h; sourceTree = "<group>"; };
+		0F5175A51B160AF500B179C9 /* CKObjectCooker.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CKObjectCooker.mm; sourceTree = "<group>"; };
+		0F5175A91B160C7C00B179C9 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		0F65BE0C19B35760005F3627 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0F65BE3419B35A6A005F3627 /* libObjectCooker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libObjectCooker.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F65BE3519B35A6B005F3627 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		0F65BE3819B35A6B005F3627 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0F65BE3919B35A6B005F3627 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		0F65BE3A19B35A6B005F3627 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		0F65BE3D19B35A6B005F3627 /* ObjectCooker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ObjectCooker-Prefix.pch"; sourceTree = "<group>"; };
+		0F65BE4519B35A6B005F3627 /* ObjectCookerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjectCookerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F65BE4D19B35A6B005F3627 /* ObjectCookerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ObjectCookerTests-Info.plist"; sourceTree = "<group>"; };
+		19C4A001FCCA6DE2EB5C8167 /* libPods-ObjectCookerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ObjectCookerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A836835551E18A021CEF66A /* Pods-ObjectCookerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjectCookerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ObjectCookerTests/Pods-ObjectCookerTests.release.xcconfig"; sourceTree = "<group>"; };
+		DB5E8B17642E4104D178C201 /* Pods-ObjectCookerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjectCookerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ObjectCookerTests/Pods-ObjectCookerTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F65BE3119B35A6A005F3627 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F65BE3619B35A6B005F3627 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F65BE4219B35A6B005F3627 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F5175AA1B160C7C00B179C9 /* libc++.dylib in Frameworks */,
+				0F65BE4719B35A6B005F3627 /* Cocoa.framework in Frameworks */,
+				0F65BE4619B35A6B005F3627 /* XCTest.framework in Frameworks */,
+				0F65BE4A19B35A6B005F3627 /* libObjectCooker.a in Frameworks */,
+				3CF41AE93F40164A41CCBC47 /* libPods-ObjectCookerTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F0583EC19B35295003658CF = {
+			isa = PBXGroup;
+			children = (
+				0F65BE3B19B35A6B005F3627 /* ObjectCooker */,
+				0F65BE4B19B35A6B005F3627 /* ObjectCookerTests */,
+				0F65BE0B19B35760005F3627 /* Frameworks */,
+				0F5175A81B160AFF00B179C9 /* Products */,
+				0F65BE3419B35A6A005F3627 /* libObjectCooker.a */,
+				0F65BE4519B35A6B005F3627 /* ObjectCookerTests.xctest */,
+				75F3BEC1F96048A9559186E1 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		0F5175A81B160AFF00B179C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F65BE0B19B35760005F3627 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F5175A91B160C7C00B179C9 /* libc++.dylib */,
+				0F65BE0C19B35760005F3627 /* XCTest.framework */,
+				0F65BE3519B35A6B005F3627 /* Cocoa.framework */,
+				0F65BE3719B35A6B005F3627 /* Other Frameworks */,
+				19C4A001FCCA6DE2EB5C8167 /* libPods-ObjectCookerTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0F65BE3719B35A6B005F3627 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F65BE3819B35A6B005F3627 /* Foundation.framework */,
+				0F65BE3919B35A6B005F3627 /* CoreData.framework */,
+				0F65BE3A19B35A6B005F3627 /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		0F65BE3B19B35A6B005F3627 /* ObjectCooker */ = {
+			isa = PBXGroup;
+			children = (
+				0F5175A41B160AF500B179C9 /* CKObjectCooker.h */,
+				0F5175A51B160AF500B179C9 /* CKObjectCooker.mm */,
+				0F65BE3D19B35A6B005F3627 /* ObjectCooker-Prefix.pch */,
+			);
+			path = ObjectCooker;
+			sourceTree = "<group>";
+		};
+		0F65BE4B19B35A6B005F3627 /* ObjectCookerTests */ = {
+			isa = PBXGroup;
+			children = (
+				0F0583FA19B35565003658CF /* CKObjectCookerSpec.m */,
+				0F65BE4D19B35A6B005F3627 /* ObjectCookerTests-Info.plist */,
+			);
+			path = ObjectCookerTests;
+			sourceTree = "<group>";
+		};
+		75F3BEC1F96048A9559186E1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DB5E8B17642E4104D178C201 /* Pods-ObjectCookerTests.debug.xcconfig */,
+				4A836835551E18A021CEF66A /* Pods-ObjectCookerTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0F65BE3219B35A6A005F3627 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F5175A61B160AF500B179C9 /* CKObjectCooker.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0F65BE3319B35A6A005F3627 /* ObjectCooker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F65BE5319B35A6B005F3627 /* Build configuration list for PBXNativeTarget "ObjectCooker" */;
+			buildPhases = (
+				0F65BE3019B35A6A005F3627 /* Sources */,
+				0F65BE3119B35A6A005F3627 /* Frameworks */,
+				0F65BE3219B35A6A005F3627 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ObjectCooker;
+			productName = ObjectCooker;
+			productReference = 0F65BE3419B35A6A005F3627 /* libObjectCooker.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		0F65BE4419B35A6B005F3627 /* ObjectCookerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F65BE5619B35A6B005F3627 /* Build configuration list for PBXNativeTarget "ObjectCookerTests" */;
+			buildPhases = (
+				B3FCEE1F90FA8D2432D509BC /* Check Pods Manifest.lock */,
+				0F65BE4119B35A6B005F3627 /* Sources */,
+				0F65BE4219B35A6B005F3627 /* Frameworks */,
+				0F65BE4319B35A6B005F3627 /* Resources */,
+				98A50576B80F53D31FA36DF2 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F65BE4919B35A6B005F3627 /* PBXTargetDependency */,
+			);
+			name = ObjectCookerTests;
+			productName = ObjectCookerTests;
+			productReference = 0F65BE4519B35A6B005F3627 /* ObjectCookerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F0583ED19B35295003658CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+			};
+			buildConfigurationList = 0F0583F019B35295003658CF /* Build configuration list for PBXProject "ObjectCooker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0F0583EC19B35295003658CF;
+			productRefGroup = 0F0583EC19B35295003658CF;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F65BE3319B35A6A005F3627 /* ObjectCooker */,
+				0F65BE4419B35A6B005F3627 /* ObjectCookerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F65BE4319B35A6B005F3627 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		98A50576B80F53D31FA36DF2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ObjectCookerTests/Pods-ObjectCookerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3FCEE1F90FA8D2432D509BC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F65BE3019B35A6A005F3627 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F5175A71B160AF500B179C9 /* CKObjectCooker.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F65BE4119B35A6B005F3627 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F65BE5A19B35AD9005F3627 /* CKObjectCookerSpec.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0F65BE4919B35A6B005F3627 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F65BE3319B35A6A005F3627 /* ObjectCooker */;
+			targetProxy = 0F65BE4819B35A6B005F3627 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0F0583F119B35295003658CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		0F0583F219B35295003658CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		0F65BE5419B35A6B005F3627 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++11";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ObjectCooker/ObjectCooker-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0F65BE5519B35A6B005F3627 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++11";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ObjectCooker/ObjectCooker-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0F65BE5719B35A6B005F3627 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB5E8B17642E4104D178C201 /* Pods-ObjectCookerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++11";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ObjectCooker/ObjectCooker-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "ObjectCookerTests/ObjectCookerTests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		0F65BE5819B35A6B005F3627 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A836835551E18A021CEF66A /* Pods-ObjectCookerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++11";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ObjectCooker/ObjectCooker-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "ObjectCookerTests/ObjectCookerTests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F0583F019B35295003658CF /* Build configuration list for PBXProject "ObjectCooker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F0583F119B35295003658CF /* Debug */,
+				0F0583F219B35295003658CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F65BE5319B35A6B005F3627 /* Build configuration list for PBXNativeTarget "ObjectCooker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F65BE5419B35A6B005F3627 /* Debug */,
+				0F65BE5519B35A6B005F3627 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F65BE5619B35A6B005F3627 /* Build configuration list for PBXNativeTarget "ObjectCookerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F65BE5719B35A6B005F3627 /* Debug */,
+				0F65BE5819B35A6B005F3627 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0F0583ED19B35295003658CF /* Project object */;
+}
