@@ -100,8 +100,17 @@ struct streq: public equal_to<const char*>{
 
 @implementation CKObjectCooker
 
-- (id)init{
-    if(self = [super init]){
++ (instancetype)defaultCooker {
+    static CKObjectCooker *defaultCooker = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        defaultCooker = [[self alloc] init];
+    });
+    return self;
+}
+
+- (id)init {
+    if(self = [super init]) {
         //registering myself, so that objects created by me can also have a dependncy on me
         Class myClass  = object_getClass(self);
         const char *className = class_getName(myClass);
@@ -113,7 +122,7 @@ struct streq: public equal_to<const char*>{
     return self;
 }
 
-- (void)dealloc{
+- (void)dealloc {
     _registeredClasses.clear();
     _singletonInstances.clear();
     _cachedDependencies.clear();

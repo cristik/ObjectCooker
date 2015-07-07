@@ -34,6 +34,8 @@ enum{
 
 @interface CKObjectCooker : NSObject
 
++ (instancetype)defaultCooker;
+
 - (void)registerAssembly:(CKObjectCookerAssembly*)assembly;
 - (void)registerClass:(Class)aClass withOptions:(NSUInteger)options;
 - (void)registerClass:(Class)aClass posingAsClass:(Class)originalClass;

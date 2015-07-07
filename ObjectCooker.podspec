@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name            = 'ObjectCooker'
-  s.version         = '0.1.1'
+  s.version         = '0.2.1'
   s.summary         = 'Dependecy Injection library for ObjectiveC'
   s.homepage        = 'https://github.com/cristik/ObjectCooker'
   s.source          = { :git => 'https://github.com/cristik/ObjectCooker.git', :tag => s.version.to_s }
